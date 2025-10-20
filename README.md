@@ -3,8 +3,9 @@ Repository for final lesson before mid term of computer graphic course
 
 # Midterm Submission – Segment Detection
 
-**Nama**: [Yunia Putri Adifa]  
-**NIM**: [1313623015]  
+**Nama**  : [Yunia Putri Adifa]  
+**NIM**   : [1313623015]  
+**Prodi** : [Ilmu Komputer B]  
 **Deskripsi**: Program ini memungkinkan pengguna menggambar titik dan garis pada canvas Qt, lalu mendeteksi kandidat segmen garis lurus menggunakan pendekatan sliding window 3×3. Deteksi didasarkan pada pola piksel aktif (non-putih) yang membentuk garis horizontal, vertikal, atau diagonal. Kandidat ditandai dengan kotak ungu kecil.
 
 **Link Gemini**: [https://gemini.google.com/share/839b9a8e85f4]
