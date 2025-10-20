@@ -14,13 +14,12 @@
 using namespace std;
 using Array3x3 = std::array<std::array<bool, 3>, 3>;
 
-
 class DrawingCanvas : public QWidget
 {
     Q_OBJECT
 private:
-    const int WINDOW_WIDTH=600;
-    const int WINDOW_HEIGHT=400;
+    const int WINDOW_WIDTH = 600;
+    const int WINDOW_HEIGHT = 400;
 
 public:
     explicit DrawingCanvas(QWidget *parent = nullptr);
@@ -40,7 +39,7 @@ protected:
 private:
     // A vector to store all the points drawn by the user
     QVector<QPoint> m_points;
-
+    QVector<QPoint> m_candidates;
     bool isPaintLinesClicked = false;
 };
 #endif // DRAWINGCANVAS_H
